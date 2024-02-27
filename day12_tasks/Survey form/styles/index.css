@@ -1,0 +1,43 @@
+*{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.name {
+    
+    font-weight: bold;
+
+}
+.email {
+    
+    font-weight: bold;
+
+}
+
+.table{
+    
+    border-collapse: collapse;
+}
+.table ,td {
+    padding-right: 50px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+}
+.button{
+    padding: 5px 10px;
+}
+.table tr:nth-child(even){
+    background-color: aqua;
+}
+span{
+    color: red;
+}
+.name-container{
+    display: flex;
+}
+.name-card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
